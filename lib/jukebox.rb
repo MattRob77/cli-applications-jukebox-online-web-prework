@@ -52,7 +52,9 @@ def run(songs)
       break
     end 
     
-    
+    if input == "help"
+      help
+    end 
   
   
   end 
