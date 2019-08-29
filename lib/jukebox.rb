@@ -47,4 +47,4 @@ def run(songs)
    help
   puts "Please enter a command:"
   input = gets.chomp 
-  until input 
+  until input == input 
