@@ -27,6 +27,7 @@ def play(songs)
      puts "Playing #{input}"
      elsif (0..songs.length).include?(input.to_i - 1)
       puts "Playing #{songs[input.to_i - 1]}"
+    else 
       
   
 end 
