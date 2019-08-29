@@ -36,3 +36,8 @@ end
 def list(songs)
   songs.each.with_index(1) {|s, i| puts "#{i}. #{s}"}
 end 
+
+
+def exit_jukebox
+  puts "Goodbye"
+end 
