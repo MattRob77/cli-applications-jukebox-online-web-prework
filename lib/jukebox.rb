@@ -57,7 +57,7 @@ def run(songs)
     end 
     
     if input == "list"
-      list 
+      list(songs) 
     end 
   
   
