@@ -45,6 +45,6 @@ end
 
 def run(songs)
   help 
- user command = ""
+ user_command = ""
   
 end 
