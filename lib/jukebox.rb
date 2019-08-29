@@ -62,6 +62,7 @@ def run(songs)
     
     if input == "play"
       play
+    end 
   
   
   end 
