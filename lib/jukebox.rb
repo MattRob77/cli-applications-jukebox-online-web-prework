@@ -55,6 +55,10 @@ def run(songs)
     if input == "help"
       help
     end 
+    
+    if input == "list"
+      list 
+    end 
   
   
   end 
