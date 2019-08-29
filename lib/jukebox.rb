@@ -44,8 +44,8 @@ end
 
 
 def run(songs)
-  puts "Please enter a command:"
   while true do 
+    
   end 
   
   
