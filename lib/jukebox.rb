@@ -25,6 +25,6 @@ def play(songs)
    input = gets.strip 
    if songs.include?(input)
      puts "Playing #{input}"
-     elsif 
+     elsif (0..songs.length).include?(input.to_i - 1)
   
 end 
