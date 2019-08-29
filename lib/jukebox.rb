@@ -44,19 +44,17 @@ end
 
 
 def run(songs)
-  help
-  puts "Please enter a command:"
-  input = gets.chomp
-  until input == "exit" do 
-    case input
-        when "play"
-          play(songs)
-        when "list"
-          list(songs)
-        when "help"
-          help
-      end
-      input = gets.chomp
+ help
+#   user_command = ""
+#   until user_command == "exit" do
+#     puts "Please enter a command:"
+#     user_command = gets.downcase.chomp
+#     if user_command == "help"
+#       help
+#     elsif user_command == "list"
+#       list(songs)     else user_command == "play"
+      play(songs)
     end
+  end
   exit_jukebox
-end
+ end
