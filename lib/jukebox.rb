@@ -46,6 +46,11 @@ end
 def run(songs)
   while true do 
     puts "Please enter a command:"
+    input = gets.chomp 
+    if input == "exit" 
+      exit_jukebox
+      break
+    end 
   
   
   end 
