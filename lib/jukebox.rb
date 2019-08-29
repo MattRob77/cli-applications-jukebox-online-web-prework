@@ -44,7 +44,7 @@ end
 
 
 def run(songs)
-  help 
+  puts 
   
   
 end 
