@@ -45,6 +45,6 @@ end
 
 def run(songs)
   help 
-  puts "I accept the following commands"
+  puts "Please enter a command"
   
 end 
