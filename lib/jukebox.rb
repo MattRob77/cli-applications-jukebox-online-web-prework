@@ -44,7 +44,7 @@ end
 
 
 def run(songs)
-  puts 
+  puts "Please enter a command:"
   
   
 end 
